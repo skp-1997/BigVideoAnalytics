@@ -85,8 +85,8 @@ docker-compose up -d
 
 - Some suggestions:
 
-  * Here, I have used only two brokers with replication factor of 2, you can update it as per requirements
-  * I have taken only one partition each topic, you can update it for faster processing
+  * Here, I have used only two brokers with replication factor of 2, you can update it as per the requirements.
+  * I have taken only one partition each topic, you can update it for faster processing.
   * You can use Kafka streaming API instead of Spark for processing frames.
   * You can work on tracking objects across the frames. The basic code is there in repo.
   * I am using .csv file to read camera metadata. You can use other databases for storing camera details.
