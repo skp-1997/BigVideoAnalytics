@@ -68,19 +68,19 @@ docker-compose up -d
 
 - To ensure Spark can access Conda environment libraries, set these environment variables:
 
-      ```
+      
       export PYSPARK_PYTHON=$(which python)
       export PYSPARK_DRIVER_PYTHON=$(which python)
-      ```
+      
 - To list running Kafka topics:
 
-      ```
+      
       bin/kafka-topics.sh --list --bootstrap-server localhost:PORT
-      ```
+      
 
 - To delete a Kafka topic:
 
-      ```
+      
       kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic your_topic_name
-      ```
+      
 
