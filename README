@@ -1,0 +1,9 @@
+Run the kafka zookeeper and server
+Source ~/.bash_profile to access spark in terminal
+Use `spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.1 sparkConsumer.py` to run spark consumer
+
+export PYSPARK_PYTHON=$(which python)
+export PYSPARK_DRIVER_PYTHON=$(which python)
+
+kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic your_topic_name
+

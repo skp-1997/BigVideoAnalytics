@@ -1,0 +1,19 @@
+# Ignore the YOLOv3 configuration and weight files
+models/yolov3.cfg
+models/yolov3.weights
+
+# Ignore the Spark distribution folder
+spark-3.5.1-bin-hadoop3/
+
+# Ignore all files in the output_videos directory
+output_videos/*
+
+# Ignore all files in the input_videos directory
+input/*
+
+# Ignore older sparkConsumer
+sparkConsumer0.py
+sparkConsumer2.py
+sparkConsumer3.py
+sparkConsumer4.py
+
